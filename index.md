@@ -31,33 +31,58 @@
 
 # [관련 이미지 & 동영상]
 
-- 이미지  
-  <B>MadWorld
-  ![image](https://user-images.githubusercontent.com/81145857/191634394-d4a1af0e-bbf4-4762-905c-9875a3ca4b8e.png)
-- 동영상
-(https://www.youtube.com/watch?v=j-xfEcODY1A)![image](https://user-images.githubusercontent.com/81145857/191634702-9fbdf28a-96cc-406a-a8af-c160c6bab535.png)
+ > 이미지
+
+ <B>MadWorld
+  ![image](https://user-images.githubusercontent.com/81145857/191634394-d4a1af0e-bbf4-4762-905c-9875a3ca4b8e.png)[](https://www.youtube.com/watch?v=j-xfEcODY1A)
+  
+  >동영상 <br>
+  (https://www.youtube.com/watch?v=j-xfEcODY1A)
+  
 
 
 
 <br><br>
 
 # [대표 이미지]
-
-![그림](./img/그림.png)
+<B>자필 그림
+<br>
+![image](https://user-images.githubusercontent.com/81145857/191635233-0ea5e641-48bc-4178-ad61-180976132daa.png)
 
 <br><br>
 
 # [컨셉 & 대표이미지 기반 작품묘사]
 
 > ### 대표이미지 기반 :
+    플레이어: HP,MP,LV,SKILL,STATE을 가지며, 직접 유저가 플레이할 수 있는 오브젝트 
+
+    레벨(LV): 유저가 사냥, 퀘스트를 하며 쌓이는 경험치(exp)로 올릴 수 있는 캐릭터 스테이터스
+
+    미니맵: 플레이어가 현재 위치한 맵 좌표를 매 프레임 마다 갱신하여 시각적인 정보를 제공
+
+    퀘스트: 현재 수행중인 퀘스트의 진행상태 혹은 클리어 조건을 메인화면에 보여줌
+
+    HP: 0이 될 시 플레이어가 사망
+
+    MP: 스킬을 사용하기 위한 코스트
+
+    몬스터: 플레이어가 죽일 수 있는 오브젝트 
+
+    NPC: 플레이어가 죽일 수 없는 대화, 퀘스트, 상점 등 여러 상호작용이 가능한 오브젝트
+
+    단축키: 유저가 원하는 스킬, 사용 아이템(소비탬) 등을 직접 넣어 간편히 사용할 수 있는 키 설정
 
 > ### 컨셉 기반:
+  > PPT 참고
+  <br>
+  [Mad World 1788013.pptx](https://github.com/M98nlight/M98nlight.github.io/files/9621282/Mad.World.1788013.pptx)
+
 
 <br><br>
 
 # [<게임제목> 구성 요소]
 
-- 가나다라마바사아차카타파하 가나다라마바사아차카타파하
+## Hunger
 
 <br>
 
@@ -67,6 +92,8 @@
 
 1. 가나다라마바사아차카타파하
 2. 가나다라마바사아차카타파하
+2. rrrrr
+1. rrr
 
 [재미 요소]
 
