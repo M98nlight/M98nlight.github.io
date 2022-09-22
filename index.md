@@ -32,7 +32,7 @@
 # [관련 이미지 & 동영상]
 
 - 이미지  
-  <img src="./img/관련이미지.jpg">
+  <img src="![image](https://user-images.githubusercontent.com/81145857/191634362-f0553204-2216-4794-b551-40c09a4a0619.png)">
 - 동영상
   [![](./img/그림.png)](https://www.youtube.com/watch?v=5xy4n73WOMM)
 
@@ -40,8 +40,7 @@
 
 # [대표 이미지]
 
-![그림](./img/그림.png)![image](https://user-images.githubusercontent.com/81145857/191634310-5e0549ea-1f30-4241-8c24-0c5df178d249.png)
-
+![그림](./img/그림.png)
 
 <br><br>
 
