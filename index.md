@@ -32,9 +32,12 @@
 # [관련 이미지 & 동영상]
 
 - 이미지  
+  <B>MadWorld
   ![image](https://user-images.githubusercontent.com/81145857/191634394-d4a1af0e-bbf4-4762-905c-9875a3ca4b8e.png)
 - 동영상
-  [![](./img/그림.png)](https://www.youtube.com/watch?v=5xy4n73WOMM)
+(https://www.youtube.com/watch?v=j-xfEcODY1A)![image](https://user-images.githubusercontent.com/81145857/191634702-9fbdf28a-96cc-406a-a8af-c160c6bab535.png)
+
+
 
 <br><br>
 
