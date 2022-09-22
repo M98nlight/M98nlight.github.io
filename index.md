@@ -115,7 +115,10 @@
 ## 3. 미적요소
 
 [디자인][컬러]  
+  ![image](https://user-images.githubusercontent.com/81145857/191639014-a878b242-1f4e-4a1b-860f-87dce609b4d3.png)
+
 가나다라마바사아차카타파하 가나다라마바사아차카타파하
+![image](https://user-images.githubusercontent.com/81145857/191639241-23f3b0a4-dd61-4894-93f8-95ad51396560.png)
 
 [음향]  
 가나다라마바사아차카타파하 가나다라마바사아차카타파하
