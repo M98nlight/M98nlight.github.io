@@ -32,7 +32,7 @@
 # [관련 이미지 & 동영상]
 
 - 이미지  
-  <img src="![image](https://user-images.githubusercontent.com/81145857/191634362-f0553204-2216-4794-b551-40c09a4a0619.png)">
+  ![image](https://user-images.githubusercontent.com/81145857/191634394-d4a1af0e-bbf4-4762-905c-9875a3ca4b8e.png)
 - 동영상
   [![](./img/그림.png)](https://www.youtube.com/watch?v=5xy4n73WOMM)
 
