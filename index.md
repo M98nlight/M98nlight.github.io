@@ -211,12 +211,40 @@ PPT Link
 |3|기술(Skill)|<img src="./img/홍길동선수.png" height="300">|:----:|
 |4|NPC(NPC)|<img src="./img/골킵.png" height="300">|:----:|
 |5|미니맵(mMap)|<img src="./img/골킵.png" height="300">|:----:|
-|6|월드맵(wMap)|<img src="./img/골킵.png" height="300">|:----:|
+|6|월드맵(wMap)|<img src="./img/골킵.png" height="300">|:----:|  
     
 ## c. 행동<a name='행동'></a>  
+|**속성**|영문명칭|설명|비고|
+|:----:|:----:|:----:|:----:|
+|1|플레이어(Player)|<img src="./img/축구장.png" width="500">|:----:|
+|2|몬스터(Mob)|<img src="./img/골대.png" width="500">|:----:|
+|3|기술(Skill)|<img src="./img/홍길동선수.png" height="300">|:----:|
+|4|NPC(NPC)|<img src="./img/골킵.png" height="300">|:----:|
+|5|미니맵(mMap)|<img src="./img/골킵.png" height="300">|:----:|
+|6|월드맵(wMap)|<img src="./img/골킵.png" height="300">|:----:|  
+    
 ## d. 상태<a name='상태'></a>  
+|**속성**|영문명칭|설명|비고|
+|:----:|:----:|:----:|:----:|
+|1|플레이어(Player)|<img src="./img/축구장.png" width="500">|:----:|
+|2|몬스터(Mob)|<img src="./img/골대.png" width="500">|:----:|
+|3|기술(Skill)|<img src="./img/홍길동선수.png" height="300">|:----:|
+|4|NPC(NPC)|<img src="./img/골킵.png" height="300">|:----:|
+|5|미니맵(mMap)|<img src="./img/골킵.png" height="300">|:----:|
+|6|월드맵(wMap)|<img src="./img/골킵.png" height="300">|:----:|  
+    
 ## e. 플레이어 캐릭터 속성(파라미터)<a name='캐릭터속성'></a>    
+|**속성**|영문명칭|설명|비고|
+|:----:|:----:|:----:|:----:|
+|1|플레이어(Player)|<img src="./img/축구장.png" width="500">|:----:|
+|2|몬스터(Mob)|<img src="./img/골대.png" width="500">|:----:|
+|3|기술(Skill)|<img src="./img/홍길동선수.png" height="300">|:----:|
+|4|NPC(NPC)|<img src="./img/골킵.png" height="300">|:----:|
+|5|미니맵(mMap)|<img src="./img/골킵.png" height="300">|:----:|
+|6|월드맵(wMap)|<img src="./img/골킵.png" height="300">|:----:|  
+
 ## f. 게임의 규칙<a name='규칙'></a>    
+
 ## g. 게임에서 사용될 공식<a name='공식'></a>  
     
 [목차](#목차)
