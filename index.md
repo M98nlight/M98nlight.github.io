@@ -177,7 +177,9 @@ PPT Link
 <br>
  
 > # 게임시스템디자인 <a name='게임디자인'></a>   
+    
 ## a. 게임 오브젝트 분해 <a name='분해'></a>  
+    
 |연번|오브젝트 이름|오브젝트 이미지|
 |:----:|:----:|:----:|
 |1|플레이어(Player)|![image](https://user-images.githubusercontent.com/81145857/196751981-43997bee-3f66-47b2-a06e-02d932544201.png)|
