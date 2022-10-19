@@ -180,54 +180,54 @@ PPT Link
 ## a. 게임 오브젝트 분해 <a name='분해'></a>  
 |연번|오브젝트 이름|오브젝트 이미지|
 |:----:|:----:|:----:|
-|1|플레이어(Player)|![image](https://user-images.githubusercontent.com/81145857/196751981-43997bee-3f66-47b2-a06e-02d932544201.png)|:----:|
-|2|몬스터(Mob)|![image](https://user-images.githubusercontent.com/81145857/196752145-ff43208b-68e8-4e63-8062-4b55cf8aaaac.png)|:----:|
-|3|기술(Skill)|![image](https://user-images.githubusercontent.com/81145857/196752166-99df654d-bcd5-4f4b-93f1-6f8083b76a2e.png)|:----:|
-|4|NPC(NPC)|![image](https://user-images.githubusercontent.com/81145857/196752176-c2a27dd9-c6c3-49e5-91a2-8bc5820878d0.png)|:----:|
-|5|미니맵(mMap)|![image](https://user-images.githubusercontent.com/81145857/196752199-990947cc-72c6-4959-8bf8-c4f9253953ea.png)|:----:|
-|6|월드맵(wMap)|![image](https://user-images.githubusercontent.com/81145857/196752211-5ed8d15a-cc38-4c03-b46f-d0945abf91d2.png)|:----:|   
+|1|플레이어(Player)|![image](https://user-images.githubusercontent.com/81145857/196751981-43997bee-3f66-47b2-a06e-02d932544201.png)|
+|2|몬스터(Mob)|![image](https://user-images.githubusercontent.com/81145857/196752145-ff43208b-68e8-4e63-8062-4b55cf8aaaac.png)|
+|3|기술(Skill)|![image](https://user-images.githubusercontent.com/81145857/196752166-99df654d-bcd5-4f4b-93f1-6f8083b76a2e.png)|
+|4|NPC(NPC)|![image](https://user-images.githubusercontent.com/81145857/196752176-c2a27dd9-c6c3-49e5-91a2-8bc5820878d0.png)|
+|5|미니맵(mMap)|![image](https://user-images.githubusercontent.com/81145857/196752199-990947cc-72c6-4959-8bf8-c4f9253953ea.png)|
+|6|월드맵(wMap)|![image](https://user-images.githubusercontent.com/81145857/196752211-5ed8d15a-cc38-4c03-b46f-d0945abf91d2.png)|   
     
 ## b. 파라미터(속성) <a name='속성'></a>    
 
-### 1)플레이어(Player)  
+### 1) 플레이어(Player)  
     
-|속성|영문명칭|설명|비고|
-|:----:|:----:|:----:|:----:|
-|닉네임|plName|유저가 설정할 수 있는 플레이어 이름|:----:|
-|최고레벨|plMaxLv|달성할 수 있는 최고레벨 수치|:----:|
-|현재레벨|plCurLv|현재 달성한 레벨 수치|:----:|
-|최대체력|plMaxHp|최대로 유지할 수 있는 체력 수치|:----:|
-|현재체력|plCurHp|현재 체력 수치|:----:|
-|최대기력|plMaxMp|최대로 유지할 수 있는 기력(스킬 사용 시 소모되는 수치)|:----:|
-|현재기력|plCurMp|현재 기력의 수치:----:|
-|최대경험치|maxExp|현재 레벨의 설정된 최대 경험치 량|:----:|
-|현재경험치|curExp|몬스터, 퀘스트 등으로 얻은 현재 경험치 량|:----:|
-|스킬포인트|skillPoint|레벨업시 얻고 남은 스킬포인트 량|:----:|
-|레벨업|lvUp|if(curExp == maxExp) -> plCurLv += 1|:----:|
-|사망|plDie|plCurHp == 0 -> plDie|:----:|
-|부활|plRespawn|사망 이후 지정된 리스폰 위치로 부활|:----:|
-|피격데미지|plHitDamage|플레이어 피격시 plCurHp를 감소|:----:|
-|공격데미지|plAttackDamage|플레이어가 몬스터 타격시 계산되는 수치|:----:|
-|이동속도|plMoveSpeed|플레이어 움직이는 속도|:----:|
-|공격속도|plAttackSpeed|플레이어 공격 속도|:----:|  
+|속성|영문명칭|설명|
+|:----:|:----:|:----:|
+|닉네임|plName|유저가 설정할 수 있는 플레이어 이름|
+|최고레벨|plMaxLv|달성할 수 있는 최고레벨 수치|
+|현재레벨|plCurLv|현재 달성한 레벨 수치|
+|최대체력|plMaxHp|최대로 유지할 수 있는 체력 수치|
+|현재체력|plCurHp|현재 체력 수치|
+|최대기력|plMaxMp|최대로 유지할 수 있는 기력(스킬 사용 시 소모되는 수치)|
+|현재기력|plCurMp|현재 기력의 수치|
+|최대경험치|maxExp|현재 레벨의 설정된 최대 경험치 량|
+|현재경험치|curExp|몬스터, 퀘스트 등으로 얻은 현재 경험치 량|
+|스킬포인트|skillPoint|레벨업시 얻고 남은 스킬포인트 량|
+|레벨업|lvUp|if(curExp == maxExp) -> plCurLv += 1|
+|사망|plDie|plCurHp == 0 -> plDie|
+|부활|plRespawn|사망 이후 지정된 리스폰 위치로 부활|
+|피격데미지|plHitDamage|플레이어 피격시 plCurHp를 감소|
+|공격데미지|plAttackDamage|플레이어가 몬스터 타격시 계산되는 수치|
+|이동속도|plMoveSpeed|플레이어 움직이는 속도|
+|공격속도|plAttackSpeed|플레이어 공격 속도| 
 
-### 2)몬스터(Mob)  
+### 2) 몬스터(Mob)  
     
-|속성|영문명칭|설명|비고|
-|:----:|:----:|:----:|:----:|
-|이름|mobName|몬스터 고유 명칭|:----:|
-|레벨|mobLv|몬스터 고유 레벨|:----:|
-|체력|mobHp|몬스터 고유 체력|:----:|
-|지급경험치|mobExp|몬스터 사망시 플레이어에게 지급하는 경험치 수치|:----:|
-|사망|mobDie|mobHp가 0이 되면 사망|:----:|
-|피격데미지|mobHitDamage|플레이어에게 받는 데미지|:----:|
-|공격데미지|mobAttackDamage|플레이어에게 주는 데미지|:----:|
-|공격속도|mobAttackSpeed|몬스터 공격 속도|:----:|
-|이동속도|mobMoveSpeed|몬스터 이동 속도|:----:| 
+|속성|영문명칭|설명|
+|:----:|:----:|:----:|
+|이름|mobName|몬스터 고유 명칭|
+|레벨|mobLv|몬스터 고유 레벨|
+|체력|mobHp|몬스터 고유 체력|
+|지급경험치|mobExp|몬스터 사망시 플레이어에게 지급하는 경험치 수치|
+|사망|mobDie|mobHp가 0이 되면 사망|
+|피격데미지|mobHitDamage|플레이어에게 받는 데미지|
+|공격데미지|mobAttackDamage|플레이어에게 주는 데미지|
+|공격속도|mobAttackSpeed|몬스터 공격 속도|
+|이동속도|mobMoveSpeed|몬스터 이동 속도|   
     
 ## c. 행동<a name='행동'></a>   
     
-### 1)플레이어(Player)  
+### 1) 플레이어(Player)  
     
 |행동|영문명칭|설명|
 |:----:|:----:|:----:|
@@ -238,9 +238,9 @@ PPT Link
 |스킬공격|plSkillAttack|플레이어 스킬 공격|
 |휴식|plRest|휴식시 일정 시간마다 체력, 기력회복|
 |회피|plDodge|회피 상태로 인한 일정시간 동안 데미지 무시|
-|피격|plHit|플레이어 피격시 모션|:----:|   
+|피격|plHit|플레이어 피격시 모션|  
     
-### 2)몬스터(mob)  
+### 2) 몬스터(mob)  
     
 |행동|영문명칭|설명|
 |:----:|:----:|:----:|
@@ -252,7 +252,7 @@ PPT Link
     
 ## d. 상태<a name='상태'></a>   
     
-### 1)플레이어(Player)  
+### 1) 플레이어(Player)  
     
 |현상태|전이상태|전이 조건|
 |:----:|:----:|:----:|
@@ -268,7 +268,7 @@ PPT Link
 |전투 상태|일반 공격|마우스 왼쪽 클릭시 일반 공격|
 |전투 상태|스킬 공격|지정된 퀵슬롯 버튼 클릭시 해당 스킬 사용|   
 
-### 2)몬스터(Mob)  
+### 2) 몬스터(Mob)  
     
 |현상태|전이상태|전이 조건|
 |:----:|:----:|:----:|
@@ -289,7 +289,7 @@ PPT Link
     * 마우스 왼쪽 클릭시 BasicAttack이 나간다. 만약 NPC를 왼쪽 클릭했다면 상호작용이 일어난다.
     * 마우스 오른쪽 클릭시 해당 좌표로 캐릭터가 이동한다. 
     * 플레이어 전투 상태시 귀환, 휴식의 행동이 불가능하다.
-    * 플레이어 휴식시 1초마다 plCurHp, plCurMP를 Max치의 3%씩 회복한다.
+    * 플레이어 휴식시 1초마다 plCurHp, plCurMP를 Max치의 3%씩 회복한다.   
     
 ### 2) 몬스터 규칙
     * 몬스터 curHp가 0일 시 사망 -> Exp를 플레이어에게 지급
@@ -303,7 +303,7 @@ PPT Link
     * 아이템은 몬스터 종류 마다 고유의 드랍 테이블을 가진다.
     * 각각의 아이템은 각기 다른 확률을 가진다.
     * 장비 아이템은 드랍 시 종류별 반드시 1개만 드랍된다.    
-    * 물약 사용시 3초의 쿨타임을 가진다.
+    * 물약 사용시 3초의 쿨타임을 가진다.  
     
 
 ## f. 게임에서 사용될 공식<a name='공식'></a>  
@@ -364,4 +364,4 @@ PPT Link
     모두는 절망해버리지만, 희망을
     포기하지 않은 몇남지 않은 사람 들 속에서 인류를 구원하기 위해
     플레이어가 나타난다. 
-[목차](#목차)
+[목차](#목차)   
