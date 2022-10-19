@@ -182,12 +182,12 @@ PPT Link
 ## a. 게임 오브젝트 분해 <a name='분해'></a>  
 |연번|오브젝트 이름|오브젝트 이미지|
 |:----:|:----:|:----:|
-|1|플레이어(Player)|<img src="./img/축구장.png" width="500">|
-|2|몬스터(Mob)|<img src="./img/골대.png" width="500">|
-|3|기술(Skill)|<img src="./img/홍길동선수.png" height="300">|
-|4|NPC(NPC)|<img src="./img/골킵.png" height="300">|
-|5|미니맵(mMap)|<img src="./img/골킵.png" height="300">|
-|6|월드맵(wMap)|<img src="./img/골킵.png" height="300">|  
+|1|플레이어(Player)|![image](https://user-images.githubusercontent.com/81145857/196751981-43997bee-3f66-47b2-a06e-02d932544201.png)|:----:|
+|2|몬스터(Mob)|![image](https://user-images.githubusercontent.com/81145857/196752145-ff43208b-68e8-4e63-8062-4b55cf8aaaac.png)|:----:|
+|3|기술(Skill)|![image](https://user-images.githubusercontent.com/81145857/196752166-99df654d-bcd5-4f4b-93f1-6f8083b76a2e.png)|:----:|
+|4|NPC(NPC)|![image](https://user-images.githubusercontent.com/81145857/196752176-c2a27dd9-c6c3-49e5-91a2-8bc5820878d0.png)|:----:|
+|5|미니맵(mMap)|![image](https://user-images.githubusercontent.com/81145857/196752199-990947cc-72c6-4959-8bf8-c4f9253953ea.png)|:----:|
+|6|월드맵(wMap)|![image](https://user-images.githubusercontent.com/81145857/196752211-5ed8d15a-cc38-4c03-b46f-d0945abf91d2.png)|:----:|   
     
 ## b. 파라미터(속성) <a name='속성'></a> 
 
@@ -200,18 +200,29 @@ PPT Link
 |현재레벨|plCurLv|현재 달성한 레벨 수치|:----:|
 |최대체력|plMaxHp|최대로 유지할 수 있는 체력 수치|:----:|
 |현재체력|plCurHp|현재 체력 수치|:----:|
-|최대기력|plMaxMp|최대로 유지할 수 있는 기력(스킬 사용 시 소모되는 수치)|:----:|  
+|최대기력|plMaxMp|최대로 유지할 수 있는 기력(스킬 사용 시 소모되는 수치)|:----:|
+|현재기력|plCurMp|현재 기력의 수치:----:|
+|최대경험치|maxExp|현재 레벨의 설정된 최대 경험치 량|:----:|
+|현재경험치|curExp|몬스터, 퀘스트 등으로 얻은 현재 경험치 량|:----:|
+|스킬포인트|skillPoint|레벨업시 얻고 남은 스킬포인트 량|:----:|
+|레벨업|lvUp|if(curExp == maxExp) -> plCurLv += 1|:----:|
+|사망|plDie|plCurHp == 0 -> plDie|:----:|
+|부활|plRespawn|사망 이후 지정된 리스폰 위치로 부활|:----:|
+|피격데미지|plHitDamage|플레이어 피격시 plCurHp를 감소|:----:|
+|공격데미지|plAttackDamage|플레이어가 몬스터 타격시 계산되는 수치|:----:|
+|이동속도|plMoveSpeed|플레이어 움직이는 속도|:----:|
+|공격속도|plAttackSpeed|플레이어 공격 속도|:----:|  
 
 ### 2)몬스터(Mob)  
     
 |**속성**|영문명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
-|1|플레이어(Player)|<img src="./img/축구장.png" width="500">|:----:|
-|2|몬스터(Mob)|<img src="./img/골대.png" width="500">|:----:|
-|3|기술(Skill)|<img src="./img/홍길동선수.png" height="300">|:----:|
-|4|NPC(NPC)|<img src="./img/골킵.png" height="300">|:----:|
-|5|미니맵(mMap)|<img src="./img/골킵.png" height="300">|:----:|
-|6|월드맵(wMap)|<img src="./img/골킵.png" height="300">|:----:|  
+|1|플레이어(Player)|![image](https://user-images.githubusercontent.com/81145857/196751981-43997bee-3f66-47b2-a06e-02d932544201.png)|:----:|
+|2|몬스터(Mob)|![image](https://user-images.githubusercontent.com/81145857/196752145-ff43208b-68e8-4e63-8062-4b55cf8aaaac.png)|:----:|
+|3|기술(Skill)|![image](https://user-images.githubusercontent.com/81145857/196752166-99df654d-bcd5-4f4b-93f1-6f8083b76a2e.png)|:----:|
+|4|NPC(NPC)|![image](https://user-images.githubusercontent.com/81145857/196752176-c2a27dd9-c6c3-49e5-91a2-8bc5820878d0.png)|:----:|
+|5|미니맵(mMap)|![image](https://user-images.githubusercontent.com/81145857/196752199-990947cc-72c6-4959-8bf8-c4f9253953ea.png)|:----:|
+|6|월드맵(wMap)|![image](https://user-images.githubusercontent.com/81145857/196752211-5ed8d15a-cc38-4c03-b46f-d0945abf91d2.png)|:----:|  
     
 ## c. 행동<a name='행동'></a>  
 |**속성**|영문명칭|설명|비고|
@@ -246,5 +257,7 @@ PPT Link
 ## f. 게임의 규칙<a name='규칙'></a>    
 
 ## g. 게임에서 사용될 공식<a name='공식'></a>  
+    
+#요구사항
     
 [목차](#목차)
