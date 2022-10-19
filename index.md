@@ -217,12 +217,15 @@ PPT Link
     
 |**속성**|영문명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
-|1|플레이어(Player)|![image](https://user-images.githubusercontent.com/81145857/196751981-43997bee-3f66-47b2-a06e-02d932544201.png)|:----:|
-|2|몬스터(Mob)|![image](https://user-images.githubusercontent.com/81145857/196752145-ff43208b-68e8-4e63-8062-4b55cf8aaaac.png)|:----:|
-|3|기술(Skill)|![image](https://user-images.githubusercontent.com/81145857/196752166-99df654d-bcd5-4f4b-93f1-6f8083b76a2e.png)|:----:|
-|4|NPC(NPC)|![image](https://user-images.githubusercontent.com/81145857/196752176-c2a27dd9-c6c3-49e5-91a2-8bc5820878d0.png)|:----:|
-|5|미니맵(mMap)|![image](https://user-images.githubusercontent.com/81145857/196752199-990947cc-72c6-4959-8bf8-c4f9253953ea.png)|:----:|
-|6|월드맵(wMap)|![image](https://user-images.githubusercontent.com/81145857/196752211-5ed8d15a-cc38-4c03-b46f-d0945abf91d2.png)|:----:|  
+|이름|mobName|몬스터 고유 명칭|:----:|
+|레벨|mobLv|몬스터 고유 레벨|:----:|
+|체력|mobHp|몬스터 고유 체력|:----:|
+|지급경험치|mobExp|몬스터 사망시 플레이어에게 지급하는 경험치 수치|:----:|
+|사망|mobDie|mobHp가 0이 되면 사망|:----:|
+|피격데미지|mobHitDamage|플레이어에게 받는 데미지|:----:|
+|공격데미지|mobAttackDamage|플레이어에게 주는 데미지|:----:|
+|공격속도|mobAttackSpeed|몬스터 공격 속도|:----:|
+|이동속도|mobMoveSpeed|몬스터  속도|:----:| 
     
 ## c. 행동<a name='행동'></a>  
 |**속성**|영문명칭|설명|비고|
